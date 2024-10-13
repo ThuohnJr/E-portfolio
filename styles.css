@@ -24,6 +24,17 @@ p{
     margin: 0;
     color: #212529;
 }
+ul{
+    list-style-type:none;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    font-family: Raleway, sans-serif, serif;
+    font-size:1.5rem;
+    font:400;
+    line-height: 1.6;
+    color: #212529;
+}
 .top{
     background:  linear-gradient(45deg, #f7ad06 ,#0dedce,#5ca309);
     font-family:Cinzel, sans-serif, serif;
@@ -94,11 +105,8 @@ text-align: center;
  .journey-description img{
     width:50%;
  }
- .journey-description p{
-   
-    
- }
- .skills-page-link{
+ 
+ .page-link{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -205,6 +213,12 @@ h5{
     font-family: cormorant,raleway,sans-serif,serif;
 }
 .vfd img{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    height: 100%;
+}
+.troubleshooting img{
     width: 100%;
     padding: 10px;
     margin: 10px;
