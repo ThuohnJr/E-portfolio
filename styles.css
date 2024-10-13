@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 html{
-
+top:0;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 body{
     box-sizing:border-box;
@@ -11,10 +15,19 @@ body{
 box-sizing: border-box;
 
 }
+p{
+    font-family: Raleway, sans-serif, serif;
+    font-size:1.5rem;
+    font:400;
+    line-height: 1.6;
+    padding: 20px;
+    margin: 0;
+    color: #212529;
+}
 .top{
     
     background:  linear-gradient(45deg, #f7ad06 ,#0dedce,#5ca309);
-
+    font-family:Cinzel, sans-serif, serif;
 
     }
 .name{
@@ -30,7 +43,7 @@ text-align: center;
     flex-direction: row;
     justify-content: space-around;
     color: rgb(8, 92, 121);
-    font-family: cinzel,serif,sans-serif;
+    font-family:Cinzel, sans-serif, serif;
 }
 
 .nav-list{
@@ -51,10 +64,57 @@ text-align: center;
     object-fit: cover;
     border-radius: 5px;
     
+   
 }
-
-
-
+#photo-img{
+    width: 100%;
+    height:100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+ .journey-description{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+ }
+ .journey-description1{
+    width: 50%;
+ }
+ .journey-description2{
+    width: 100%;
+    width: 100%;
+    font-family: Raleway, serif, sans-serif;
+    font-size:1.5rem;
+    color: #212529;
+    padding: 10px;
+    margin: 10px;
+    line-height: 1.6;
+    align-items: center;
+    justify-content: center;
+ }
+ .journey-description img{
+    width:50%;
+ }
+ .journey-description p{
+   
+    
+ }
+ .skills-page-link{
+    display: flex;
+    padding: 20px;
+    margin:20px;
+ }
+.btn{
+    padding: 10px 20px;
+    background: #0dedce;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1.6rem;
+}
 .skill-header{
     font-family: cinzel, serif, sans-serif;
     font-size: 2rem;
@@ -65,5 +125,21 @@ text-align: center;
     font-family: cinzel, serif, sans-serif;
     font-size: 1.5rem;
     color: orange;
-    
+    font-family: Raleway, serif, sans-serif;
+    padding:15px;
+    margin: 10px;
+}
+
+
+footer{
+    background: linear-gradient(45deg, #f7ad06 ,#0dedce,#5ca309);
+    padding: 10px;
+    text-align: center;
+    color: rgb(8, 92, 121);
+    font-family: Cinzel, sans-serif, serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
