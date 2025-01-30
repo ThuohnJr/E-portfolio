@@ -294,6 +294,34 @@ width: 100%;
     margin: 10px;
     height: 300px;
 }
+.kemsa{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.kemsa img{
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    height: 300px;
+}
+.kiln{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.kiln img{
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    height: 300px;
+}
+#hobby-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
 @media(max-width:768px){  
     html{
         width: 100%;
